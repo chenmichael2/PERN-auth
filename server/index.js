@@ -5,7 +5,7 @@ const cors = require('cors');
 //middleware
 
 app.use(express.json()) //allows req.body
-app.use(cors());
+app.use(cors()); // allows backend to interact with front end
 
 //ROUTES//
 
